@@ -1,0 +1,50 @@
+<!--Ellesh Keloth-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" rel="stylesheet" />
+    <script src="magic.js"></script>
+    <title>App</title>
+
+    <div style="display: inline;" class="navgMain" class="search">
+        <a class="navigator" id="third" href="index.html">
+            &emsp; &emsp;&emsp;Third&emsp;&emsp; &emsp;
+        </a>
+
+        <a class="navigator" href="fifth.html" id="third">
+            &emsp; &emsp;&emsp; Fifth &emsp;&emsp; &emsp;
+        </a>
+
+        <a class="curView" id="third" href="magic.html">
+            &emsp; &emsp;&emsp;Magic &emsp;&emsp; &emsp;
+        </a>
+
+
+        <span " class=" search">
+            <input type="search" id="query" name="q" placeholder="Search..."><button onclick="search('3')">Go</button>
+            <button onclick="Reset()">Reset</button>
+
+        </span>
+
+    </div>
+
+
+</head>
+
+<body>
+    <div class="status" id="status">
+        Loading
+    </div>
+    <!-- table for showing data -->
+    <table id="results"></table>
+
+
+</body>
+
+</html>
